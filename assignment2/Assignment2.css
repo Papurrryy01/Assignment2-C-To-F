@@ -1,0 +1,16 @@
+body{
+    background-color: lightpink;
+}
+.degree-con{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+input, button{
+    width: 200px;
+    display: block;
+    margin: 10px auto;
+    padding: 8px;
+    font-size: 16px;
+}
