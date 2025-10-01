@@ -7,6 +7,6 @@ function convertToF(){
     
     let Fahrenheit = (Celsius * 9/5) + 32;
 
-    document.getElementById("result").innerText = Fahrenheit.toFixed(1) + " °F"
+    document.getElementById("result").innerText = "The convertion of " + Celsius + " °C is " + Fahrenheit.toFixed(1) + " °F"
 
 }
